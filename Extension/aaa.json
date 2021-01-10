@@ -1,0 +1,95 @@
+[
+    {
+        "place_id": "302520552",
+        "licence": "https:\/\/locationiq.com\/attribution",
+        "osm_type": "node",
+        "osm_id": "244081648",
+        "boundingbox": [
+            "31.0722758",
+            "31.3922758",
+            "121.3092071",
+            "121.6292071"
+        ],
+        "lat": "31.2322758",
+        "lon": "121.4692071",
+        "display_name": "Shanghai, Huangpu District, 200001, China",
+        "class": "place",
+        "type": "city",
+        "importance": 0.91112289456062,
+        "icon": "https:\/\/locationiq.org\/static\/images\/mapicons\/poi_place_city.p.20.png"
+    },
+    {
+        "place_id": "274671226",
+        "licence": "https:\/\/locationiq.com\/attribution",
+        "osm_type": "way",
+        "osm_id": "30785567",
+        "boundingbox": [
+            "31.2501049",
+            "31.2527086",
+            "121.449721",
+            "121.4522023"
+        ],
+        "lat": "31.2515439",
+        "lon": "121.451111147855",
+        "display_name": "Shanghai, Shanghai Railway Station South Square, \u5353\u60a6\u5c40, \u5c40\u897f\u6751, Jing'an District, China",
+        "class": "building",
+        "type": "train_station",
+        "importance": 0.688431032071491
+    },
+    {
+        "place_id": "310410426",
+        "licence": "https:\/\/locationiq.com\/attribution",
+        "osm_type": "relation",
+        "osm_id": "12100070",
+        "boundingbox": [
+            "26.0657944",
+            "26.0749214",
+            "119.2759047",
+            "119.3000874"
+        ],
+        "lat": "26.0701988",
+        "lon": "119.2907523",
+        "display_name": "Shanghai Subdistrict, Taijiang District, Fuzhou City, Fujian, China",
+        "class": "boundary",
+        "type": "administrative",
+        "importance": 0.41962395537125,
+        "icon": "https:\/\/locationiq.org\/static\/images\/mapicons\/poi_boundary_administrative.p.20.png"
+    },
+    {
+        "place_id": "25257399",
+        "licence": "https:\/\/locationiq.com\/attribution",
+        "osm_type": "node",
+        "osm_id": "2427932618",
+        "boundingbox": [
+            "25.6944447",
+            "25.6945447",
+            "100.1590503",
+            "100.1591503"
+        ],
+        "lat": "25.6944947",
+        "lon": "100.1591003",
+        "display_name": "Shanghai, Boai Road, Dali Ancient City, \u5927\u7eb8\u574a, \u6c34\u7893\u6751, Dali City, Dali Bai Autonomous Prefecture, Yunnan, 671000, China",
+        "class": "amenity",
+        "type": "restaurant",
+        "importance": 0.22100000000000003,
+        "icon": "https:\/\/locationiq.org\/static\/images\/mapicons\/food_restaurant.p.20.png"
+    },
+    {
+        "place_id": "74384817",
+        "licence": "https:\/\/locationiq.com\/attribution",
+        "osm_type": "node",
+        "osm_id": "6355718485",
+        "boundingbox": [
+            "31.1642295",
+            "31.1643295",
+            "121.3290723",
+            "121.3291723"
+        ],
+        "lat": "31.1642795",
+        "lon": "121.3291223",
+        "display_name": "Shanghai, Huxing Road, Minhang District, 201101, China",
+        "class": "tourism",
+        "type": "chalet",
+        "importance": 0.22100000000000003
+    }
+]
