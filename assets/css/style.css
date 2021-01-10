@@ -2040,7 +2040,10 @@ p {
   .form-input .input-items textarea {
     padding-top: 8px;
     height: 130px;
-    resize: none; }
+    resize: none;
+    z-index: 9; }
+    .form-input .input-items input {
+      z-index: 9; }
   .form-input .input-items i {
     position: absolute;
     top: 11px;
@@ -2817,7 +2820,8 @@ p {
       padding: 0;
       border: 0;
       background: none;
-      margin-top: 40px; }
+      margin-top: 40px;
+    z-index: 9; }
       .about-area .about-accordion .accordion .card .card-header a {
         font-size: 18px;
         font-weight: 500;
@@ -2847,6 +2851,7 @@ p {
     .about-area .about-accordion .accordion .card .card-body {
       padding: 20px 20px 0; }
   .about-area .about-image img {
+    margin-left: 25%;
     width: 100%; }
 
 /*===========================
@@ -3123,7 +3128,8 @@ p {
 .contact-area {
   padding-top: 120px;
   padding-bottom: 130px;
-  background-color: #fff; }
+  background-color: #fff; 
+  z-index: 5;}
 
 p.form-message.success, p.form-message.error {
   font-size: 16px;
