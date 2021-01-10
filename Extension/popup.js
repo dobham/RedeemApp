@@ -1,4 +1,4 @@
-var name = "Rohun"
+var name = "Mahbod Sabagghi"
 var balance;
 var lifetimeDonations;
 
@@ -12,7 +12,7 @@ if (name == "") {
         console.log(name);
         console.log(response.data);
         balance = response.data.balance;
-        lifetimeDonations = response.data.balance;
+        lifetimeDonations = response.data.lifetimeDonations;
         // offset = response.data.offset;
         // distance = response.data.distance;
         // purchases = response.data.purchases;
@@ -51,7 +51,8 @@ if (name == "") {
         }
 
         //sets the stats balance to what is already in the database
-        document.getElementById('donBalance').innerHTML = "$"+floatToString(balance);
+        document.getElementById('donBalance').innerHTML = " $"+floatToString(balance);
+        document.getElementById('lifeDon').innerHTML = "$"+floatToString(lifetimeDonations);
     })
 
     function floatToString(num) {

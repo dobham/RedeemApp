@@ -53,10 +53,10 @@ window.onload = function() {
         }
 
         //sets the stats balance to what is already in the database
-        document.getElementById('offset').innerHTML = floatToString(offset)+" kg ";
+        document.getElementById('offset').innerHTML = " "+floatToString(offset)+" kg ";
         document.getElementById('distance').innerHTML = distance+" km ";
-        document.getElementById('purchases').innerHTML = purchases;
-        document.getElementById('eff').innerHTML = floatToString(efficiency)+"  kg/$  ";
+        document.getElementById('purchases').innerHTML = " "+purchases;
+        document.getElementById('eff').innerHTML = floatToString(efficiency)+" kg/$  ";
         document.getElementById('ecoscore').innerHTML = ecoscore+"% ";
 
         document.getElementById("scoreBar").style.width=floatToString(323*(ecoscore/100))+"px";
