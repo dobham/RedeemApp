@@ -20,6 +20,25 @@ var ecoscore;
 
 var cartBtn = document.getElementById('atcRedesignId_overlay-atc-container');
 
+if (window.location.href.includes("pay.ebay")) {
+    balance = balance+offset
+    purchases = purchases+1
+
+    chrome.runtime.sendMessage({command: "post", data: {name: name, 
+                                                        balance: balance,
+                                                        lifetimeDonations: lifetimeDonations,
+                                                        offset: 87.44,
+                                                        distance: distance,
+                                                        purchases: purchases,
+                                                        efficiency: efficiency,
+                                                        ecoscore: ecoscore+1
+                                                    }},
+    (response) => {
+        console.log("pushed");
+    })
+
+}
+
 
 function modifyPage(priceElement) {
     originalPrice = priceElement.innerHTML
@@ -261,7 +280,7 @@ function updates(userLat, userLong) {
     itemLong = parseFloat(item[0].lon)
 
     dist = getDistanceFromLatLonInKm(userLat, userLong, itemLat, itemLong)
-
+    distance = distance+dist
     offset = calcOffset(dist)
 
     cartBtn.addEventListener("click", updateOffset);

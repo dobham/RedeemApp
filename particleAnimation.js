@@ -4,8 +4,8 @@ function Particle( x, y, radius ) {
 Particle.prototype = {
     init: function( x, y, radius ) {
         this.alive = true;
-        this.radius = radius || 10;
-        this.wander = 0.15;
+        this.radius = radius || 5;
+        this.wander = 0.55;
         this.theta = random( TWO_PI );
         this.drag = 0.92;
         this.color = '#fff';
