@@ -2792,6 +2792,10 @@ p {
 /*===========================
        15.ABOUT css 
 ===========================*/
+#bless{
+  position: relative;
+  z-index: 9;
+}
 .about-area {
   padding-top: 80px;
   padding-bottom: 130px;

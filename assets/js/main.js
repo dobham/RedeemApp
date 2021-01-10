@@ -190,7 +190,21 @@ $(function() {
         }, 1500);
     });
     
-    
+    $('iframe').each(function() {
+        var url = $(this).attr("src");
+        if (url.indexOf("?") > 0) {
+          $(this).attr({
+            "src" : url + "&wmode=transparent",
+            "wmode" : "opaque"
+          });
+        }
+        else {
+          $(this).attr({
+            "src" : url + "?wmode=transparent",
+            "wmode" : "opaque"
+          });
+        }
+      });
     //===== 
     
     
