@@ -1,5 +1,5 @@
 {
-    "manifest_version": 1.0,
+    "manifest_version": 1,
     "name": "Redeem",
     "description": "Redeem modifies the prices on online retailers to help account for the environmental damage of shipping!",
     "background": {
