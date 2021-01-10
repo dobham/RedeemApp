@@ -22,7 +22,6 @@ signinForm.addEventListener('submit', (e) => {
 
     firebase.auth().signInWithEmailAndPassword(email, pass)
         .then((user) => {
-            alert("Welcome, "+firebase.auth().currentUser.displayName)
             window.location.href = '../../Dashboard/index.html'
         })
         .catch((error) => {
